@@ -1,0 +1,10 @@
+[
+    {
+        "path": "test/dir/file 1"
+      , "content": "some content\n"
+    }
+  , {
+        "path": "test/dir/file 2"
+      , "content": "some other content\n"
+    }
+]
