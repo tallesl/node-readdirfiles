@@ -39,7 +39,7 @@ $ echo "one" > numbers/1
 $ echo "two" > numbers/2
 $ echo "three" > numbers/3
 $ npm install readdirfiles
-readdirfiles@1.1.0 node_modules/readdirfiles
+readdirfiles@1.2.0 node_modules/readdirfiles
 $ node
 > var readdirFiles = require('readdirfiles')
 undefined
