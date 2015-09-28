@@ -5,15 +5,15 @@ var assert       = require('assert')
 it('stream', function (done) {
 
   var stream   = new readdirFiles.Stream('./test/dir', 'utf8')
-    , gathered = [ ]
+    , actual = [ ]
 
   stream.on('readable', function () {
     var data = stream.read()
-    if (data) gathered.push(data)
+    if (data) actual.push(data)
   })
 
   stream.on('end', function () {
-    assert.deepEqual(gathered, expected)
+    assert.deepEqual(actual, expected)
     done()
   })
 
