@@ -17,7 +17,6 @@
     "readFile"
   ],
   "license": "Fair",
-  "main": "lib/readdirfiles.js",
   "name": "readdirfiles",
   "repository": {
     "type": "git",
