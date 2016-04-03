@@ -1,22 +1,19 @@
 {
   "author": "Talles L <talleslasmar@gmail.com>",
   "bugs": {
-    "url": "https://github.com/tallesl/readdirfiles/issues"
+    "url": "https://github.com/tallesl/node-readdirfiles/issues"
   },
   "dependencies": {
     "async": "^1.4.2"
   },
-  "description": "Node.js' fs.readdir + fs.readFile",
+  "description": "Node.js' fs.readdir + fs.readFile.",
   "devDependencies": {
     "coveralls": "^2.11.4",
-    "istanbul": "^0.3.21",
-    "lodash": "^3.10.1",
-    "mocha": "^2.3.3"
+    "istanbul": "^0.4.2",
+    "lodash": "^4.7.0",
+    "mocha": "^2.3.3",
+    "standard": "^6.0.8"
   },
-  "directories": {
-    "lib": "./lib"
-  },
-  "homepage": "https://github.com/tallesl/readdirFiles",
   "keywords": [
     "fs",
     "readdir",
@@ -26,10 +23,10 @@
   "name": "readdirfiles",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tallesl/readdirfiles.git"
+    "url": "https://github.com/tallesl/node-readdirfiles.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "standard && mocha"
   },
-  "version": "1.2.0"
+  "version": "1.2.1"
 }
