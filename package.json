@@ -4,15 +4,15 @@
     "url": "https://github.com/tallesl/node-readdirfiles/issues"
   },
   "dependencies": {
-    "async": "^1.4.2"
+    "async": "^2.0.0-rc.6"
   },
   "description": "Node.js' fs.readdir + fs.readFile.",
   "devDependencies": {
     "coveralls": "^2.11.4",
-    "istanbul": "^0.4.2",
+    "istanbul": "^0.4.3",
     "lodash": "^4.7.0",
-    "mocha": "^2.3.3",
-    "standard": "^6.0.8"
+    "mocha": "^2.5.3",
+    "standard": "^7.1.2"
   },
   "keywords": [
     "fs",
